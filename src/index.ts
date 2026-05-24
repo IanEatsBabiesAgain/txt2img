@@ -1,7 +1,7 @@
 export default {
 	async fetch(request, env) {
 		const inputs = {
-			prompt: "Exploding baby",
+			prompt: "Fiery explosing propelling forward two severed bloodied baby arms, two severed bloodied baby legs and a severed bloodied baby's head",
 		};
 
 		const response = await env.AI.run(
